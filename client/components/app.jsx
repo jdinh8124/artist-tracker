@@ -6,7 +6,6 @@ export default function App() {
     const [displayMessage, setDisplayMessage] = useState("Loading...");
 
     useEffect(() => {
-        getDatasetId();
       }, []);
 
     return (
